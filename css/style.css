@@ -128,12 +128,15 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- .container {
-    width: 1140px;
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 0 20px;
-}
+ @media all and (max-width:1140px){
+
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+ }
+ 
 
 /* tablet */
 
@@ -177,10 +180,24 @@ img {
         background-color: #222222;
     }
 
+    .why-us {
+        margin-bottom: 0;
+    }
+
+    .why-us h2 {
+        padding-top: 20px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+
     .why-us .col-left {
         width: 100%;
         padding-bottom: 40px;
     }
+
+
 
 
     
